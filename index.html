@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/1f8388265b.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="assets/css/normalize.css" />
+		<link rel="stylesheet" href="assets/css/styles.css" />
+		<title>Portafolio Dinámico - Jose Salazar</title>
+	</head>
+	<body>
+		<div class="contenedor">
+			<header>
+				<div class="logo">
+					<h1>Jose Salazar</h1>
+					<p>Desarrollador Web</p>
+				</div>
+				<form action="">
+					<input
+						type="text"
+						class="barra-busqueda"
+						id="barra-busqueda"
+						placeholder="Buscar"
+					/>
+				</form>
+				<div class="categorias" id="categorias">
+					<a href="#" class="activo">Todos</a>
+					<a href="#" class="">Naturaleza</a>
+					<a href="#" class="">Ciudades</a>
+					<a href="#" class="">Personas</a>
+					<a href="#" class="">Animales</a>
+				</div>
+			</header>
+
+			<section class="grid" id="grid">
+				<div
+					class="item"
+					data-categoria="ciudades"
+					data-etiquetas="ciudades autos carros calles"
+					data-descripcion="1.- Lorem ipsum dolor sit amet consectetur."
+				>
+					<div class="item-contenido">
+						<img src="assets/img/ciudad1.png" alt="" />
+					</div>
+				</div>
+
+				<div
+					class="item"
+					data-categoria="personas"
+					data-etiquetas="personas mujeres"
+					data-descripcion="2.- Lorem ipsum dolor sit amet consectetur."
+				>
+					<div class="item-contenido">
+						<img src="assets/img/persona1.png" alt="" />
+					</div>
+				</div>
+
+				<div
+					class="item"
+					data-categoria="naturaleza"
+					data-etiquetas="paisajes montañas mar playas"
+					data-descripcion="3.- Lorem ipsum dolor sit amet consectetur."
+				>
+					<div class="item-contenido">
+						<img src="assets/img/paisaje1.png" alt="" />
+					</div>
+				</div>
+
+				<div
+					class="item"
+					data-categoria="animales"
+					data-etiquetas="animales leones"
+					data-descripcion="4.- Lorem ipsum dolor sit amet consectetur."
+				>
+					<div class="item-contenido">
+						<img src="assets/img/animal1.png" alt="" />
+					</div>
+				</div>
+
+				<div
+					class="item"
+					data-categoria="animales"
+					data-etiquetas="animales pandas"
+					data-descripcion="5.- Lorem ipsum dolor sit amet consectetur."
+				>
+					<div class="item-contenido">
+						<img src="assets/img/animal2.png" alt="" />
+					</div>
+				</div>
+
+				<div
+					class="item"
+					data-categoria="personas"
+					data-etiquetas="personas mujeres"
+					data-descripcion="6.- Lorem ipsum dolor sit amet consectetur."
+				>
+					<div class="item-contenido">
+						<img src="assets/img/persona2.png" alt="" />
+					</div>
+				</div>
+
+				<div
+					class="item"
+					data-categoria="naturaleza"
+					data-etiquetas="paisajes montañas niebla"
+					data-descripcion="7.- Lorem ipsum dolor sit amet consectetur."
+				>
+					<div class="item-contenido">
+						<img src="assets/img/paisaje2.png" alt="" />
+					</div>
+				</div>
+
+				<div
+					class="item"
+					data-categoria="ciudades"
+					data-etiquetas="ciudades paisajes carreteras"
+					data-descripcion="8.- Lorem ipsum dolor sit amet consectetur."
+				>
+					<div class="item-contenido">
+						<img src="assets/img/ciudad2.png" alt="" />
+					</div>
+				</div>
+
+				<div
+					class="item"
+					data-categoria="naturaleza"
+					data-etiquetas="naturaleza hojas plantas"
+					data-descripcion="9.- Lorem ipsum dolor sit amet consectetur."
+				>
+					<div class="item-contenido">
+						<img src="assets/img/naturaleza1.png" alt="" />
+					</div>
+				</div>
+			</section>
+
+			<section class="overlay" id="overlay">
+				<div class="contenedor-img">
+					<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+					<img src="" alt="" />
+				</div>
+				<p class="descripcion"></p>
+			</section>
+
+			<footer class="contenedor">
+				<div class="redes-sociales">
+					<div class="contenedor-icono">
+						<a href="#" target="_blank" class="git">
+							<i class="fab fa-git"></i>
+						</a>
+					</div>
+					<div class="contenedor-icono">
+						<a href="#" target="_blank" class="twitter">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</div>
+					<div class="contenedor-icono">
+						<a href="#" target="_blank" class="linkedin">
+							<i class="fab fa-linkedin-in"></i>
+						</a>
+					</div>
+				</div>
+				<div class="creado-por">
+					<p>
+						Sitio diseñado por <a href="#"><strong>Jose Salazar</strong></a> con
+						material de
+						<a href="https://youtu.be/42T31laI9Qs" target="_blank"
+							>Carlos Arturo</a
+						>
+					</p>
+				</div>
+			</footer>
+		</div>
+		<!-- <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script> -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/muuri/0.9.3/muuri.min.js"
+			integrity="sha512-qKTUVe1eoat7bk2HIJpPFdHaQiJU1p240JFDu40JvzK/3WUa0Y1dLKqETGtvpXQvYiXwphFNafQsTtCZ5rgWYg=="
+			crossorigin="anonymous"
+		></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
