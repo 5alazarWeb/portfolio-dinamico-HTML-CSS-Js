@@ -3,17 +3,13 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
-			rel="stylesheet"
-		/>
 		<script
 			src="https://kit.fontawesome.com/1f8388265b.js"
 			crossorigin="anonymous"
 		></script>
-		<link rel="stylesheet" href="assets/css/normalize.css" />
-		<link rel="stylesheet" href="assets/css/styles.css" />
-		<title>Portafolio Dinámico - Jose Salazar</title>
+		<link rel="stylesheet" href="./assets/css/normalize.css" />
+		<link rel="stylesheet" href="./assets/css/styles1.css" />
+		<title>Jose Salazar | Portafolio Dinámico</title>
 	</head>
 	<body>
 		<div class="contenedor">
@@ -24,7 +20,7 @@
 				</div>
 				<form action="">
 					<input
-						type="text"
+						input="text"
 						class="barra-busqueda"
 						id="barra-busqueda"
 						placeholder="Buscar"
@@ -32,14 +28,13 @@
 				</form>
 				<div class="categorias" id="categorias">
 					<a href="#" class="activo">Todos</a>
-					<a href="#" class="">Naturaleza</a>
-					<a href="#" class="">Ciudades</a>
-					<a href="#" class="">Personas</a>
-					<a href="#" class="">Animales</a>
+					<a href="#">Naturaleza</a>
+					<a href="#">Ciudades</a>
+					<a href="#">Personas</a>
+					<a href="#">Animales</a>
 				</div>
 			</header>
-
-			<section class="grid" id="grid">
+			<main class="grid" id="grid">
 				<div
 					class="item"
 					data-categoria="ciudades"
@@ -138,8 +133,7 @@
 						<img src="assets/img/naturaleza1.png" alt="" />
 					</div>
 				</div>
-			</section>
-
+			</main>
 			<section class="overlay" id="overlay">
 				<div class="contenedor-img">
 					<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
@@ -147,42 +141,34 @@
 				</div>
 				<p class="descripcion"></p>
 			</section>
-
-			<footer class="contenedor">
+			<footer>
 				<div class="redes-sociales">
 					<div class="contenedor-icono">
-						<a href="#" target="_blank" class="git">
-							<i class="fab fa-git"></i>
-						</a>
+						<a href="#" target="_blank" class="git"
+							><i class="fab fa-git"></i
+						></a>
 					</div>
 					<div class="contenedor-icono">
-						<a href="#" target="_blank" class="twitter">
-							<i class="fab fa-twitter"></i>
-						</a>
+						<a href="#" target="_blank" class="twitter"
+							><i class="fab fa-twitter"></i
+						></a>
 					</div>
 					<div class="contenedor-icono">
-						<a href="#" target="_blank" class="linkedin">
-							<i class="fab fa-linkedin-in"></i>
-						</a>
+						<a href="#" target="_blank" class="linkedin"
+							><i class="fab fa-linkedin-in"></i
+						></a>
 					</div>
 				</div>
-				<div class="creado-por">
-					<p>
-						Sitio diseñado por <a href="#"><strong>Jose Salazar</strong></a> con
-						material de
-						<a href="https://youtu.be/42T31laI9Qs" target="_blank"
-							>Carlos Arturo</a
-						>
-					</p>
+				<div class="creado">
+					<p>&copy; 2020 <strong>Jose Salazar</strong></p>
 				</div>
 			</footer>
 		</div>
-		<!-- <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script> -->
 		<script
 			src="https://cdnjs.cloudflare.com/ajax/libs/muuri/0.9.3/muuri.min.js"
 			integrity="sha512-qKTUVe1eoat7bk2HIJpPFdHaQiJU1p240JFDu40JvzK/3WUa0Y1dLKqETGtvpXQvYiXwphFNafQsTtCZ5rgWYg=="
 			crossorigin="anonymous"
 		></script>
-		<script src="assets/js/main.js"></script>
+		<script src="./assets/js/main.js"></script>
 	</body>
 </html>
